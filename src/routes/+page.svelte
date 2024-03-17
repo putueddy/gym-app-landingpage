@@ -7,6 +7,7 @@
 </script>
 
 <svelte:head>
+  <meta name="description" content="Author: iPEI" />
   <title>Swoley Moley</title>
 </svelte:head>
 

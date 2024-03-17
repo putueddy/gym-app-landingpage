@@ -6,7 +6,7 @@
   <button class={"specialBtn" + (dark ? " bg-[#181b34]" : " ")}>
     <p class="text-base sm:text-lg md:text-xl">Contact Us</p>
   </button>
-  <button class="specialBtnDark">
+  <button class={"specialBtnDark" + (dark ? " bg-[#818cf8]" : " ")}>
     <p class="text-base sm:text-lg md:text-xl">Get Started &rarr;</p>
   </button>
 </div>
