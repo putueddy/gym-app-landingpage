@@ -29,7 +29,11 @@
       {/each}
     </div>
     <div class="flex items-center">
-      <button class="specialBtnDark mr-auto font-semibold">
+      <button
+        class="specialBtnDark mr-auto font-semibold"
+        id="cta-try-free"
+        aria-label="Try Free"
+      >
         <p>Try free today &rarr;</p>
       </button>
     </div>

@@ -14,6 +14,8 @@
     <button
       on:click={() => ($openModal = true)}
       class="md:hidden grid place-items-center"
+      id="menu-btn"
+      aria-label="Menu"
     >
       <i class="fa-solid fa-bars"></i>
     </button>
@@ -29,7 +31,7 @@
       <a class="duration-200 hover:text-indigo-400 cursor-pointer" href="#faq"
         >FAQs</a
       >
-      <button class="specialBtn">
+      <button class="specialBtn" id="signup-btn" aria-label="Sign Up">
         <p>Start free today</p>
       </button>
     </nav>

@@ -26,6 +26,8 @@
       <button
         on:click={() => ($openModal = false)}
         class="outline-none border-none"
+        id="menu-btn"
+        aria-label="Menu"
       >
         <i class="fa-solid fa-xmark text-2xl"></i>
       </button>
@@ -34,6 +36,8 @@
       <button
         on:click={() => reroute("#product")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
+        id="menu-product"
+        aria-label="Product"
       >
         <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
           Product <i class="fa-solid fa-chevron-right text-xl pl-4" />
@@ -42,6 +46,8 @@
       <button
         on:click={() => reroute("#review")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
+        id="menu-review"
+        aria-label="Reviews"
       >
         <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
           Reviews <i class="fa-solid fa-chevron-right text-xl pl-4" />
@@ -50,6 +56,8 @@
       <button
         on:click={() => reroute("#faq")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
+        id="menu-faq"
+        aria-label="FAQs"
       >
         <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
           FAQs <i class="fa-solid fa-chevron-right text-xl pl-4" />
