@@ -11,7 +11,7 @@
       ],
       description:
         "Swoley moley ensures all users have the information they need to train safely and train effectively.",
-      imgUrl: "assets/selection.png",
+      imgUrl: "assets/selection.webp",
     },
     {
       featureList: [
@@ -22,7 +22,7 @@
       ],
       description:
         "Build you streaks and see your progress with our amazing tracking and analytics features.",
-      imgUrl: "assets/training.png",
+      imgUrl: "assets/training.webp",
     },
     {
       featureList: [
@@ -33,7 +33,7 @@
       ],
       description:
         "Enter as much information about yourself as you desire to ensure all workouts are personalized to your every need.",
-      imgUrl: "assets/goal.png",
+      imgUrl: "assets/goal.webp",
     },
   ];
 </script>

@@ -43,7 +43,7 @@
       {/each}
     </div>
     <div class="flex flex-col bg-white gap-4 flex-1">
-      <img src={productFeature.imgUrl} alt="product-img" />
+      <img fetchpriority="high" src={productFeature.imgUrl} alt="product-img" />
     </div>
   </div>
 </div>

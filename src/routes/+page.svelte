@@ -6,6 +6,10 @@
   import Review from "../components/Review.svelte";
 </script>
 
+<svelte:head>
+  <title>Swoley Moley</title>
+</svelte:head>
+
 <main class="flex flex-col">
   <Hero />
   <Product />
