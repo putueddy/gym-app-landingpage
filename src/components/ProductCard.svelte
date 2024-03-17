@@ -31,8 +31,8 @@
     <div class="flex items-center">
       <button
         class="specialBtnDark mr-auto font-semibold"
-        id="cta-try-free"
-        aria-label="Try Free"
+        id={"cta-try-free" + index}
+        aria-label={"Try Free" + index}
       >
         <p>Try free today &rarr;</p>
       </button>
