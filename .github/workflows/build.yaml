@@ -25,4 +25,4 @@ jobs:
           server: https://griyarahmani3.com
           app: "sveltekit"
           token: "${{ secrets.APP_TOKEN }}"
-          image: "ghcr.io/putueddy/sveltekit:latest"
+          image: "ghcr.io/putueddy/gym-app-landingpage:latest"
