@@ -45,6 +45,7 @@
     <div class="flex flex-col bg-white gap-4 flex-1">
       <img
         fetchpriority="high"
+        loading="eager"
         src={productFeature.imgUrl}
         alt="product-img"
         width="100%"
